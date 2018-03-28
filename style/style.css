@@ -1,0 +1,57 @@
+body{
+margin:0;
+}
+#banniere {
+background-color:black;
+height:100px;
+}
+#menu  {
+float:left;
+width:15%;
+background-color:grey;
+height:500px;
+}
+#contenu {
+margin-left:20%;
+background-color:#55eeee;
+width:80%;
+height:500px;
+}
+table {
+    border-collapse: collapse;
+    width: 50%;
+    border:1px solid grey;
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+input[type=text], input[type=password]{
+    width: 20%;
+    padding: 5px;
+    margin: 8px;
+    /*display: inline-block;*/
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /*box-sizing: border-box;*/
+}
+
+input[type=submit] {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    margin: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: grey;
+}
